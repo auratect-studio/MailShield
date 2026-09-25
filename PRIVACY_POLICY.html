@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailShield AI — Політика конфіденційності / Privacy Policy</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --surface-color: #151d30;
+            --card-border: rgba(255, 255, 255, 0.08);
+            --primary-color: #3b82f6;
+            --primary-hover: #2563eb;
+            --accent-green: #22c55e;
+            --accent-amber: #f59e0b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 20px 80px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(59, 130, 246, 0.15);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 9999px;
+            padding: 6px 18px;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+            color: #60a5fa;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.02em;
+        }
+
+        .meta-info {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .lang-btn {
+            background: var(--surface-color);
+            border: 1px solid var(--card-border);
+            color: var(--text-secondary);
+            padding: 8px 18px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover, .lang-btn.active {
+            background: var(--primary-color);
+            color: #ffffff;
+            border-color: var(--primary-color);
+        }
+
+        .callout-box {
+            background: rgba(59, 130, 246, 0.08);
+            border-left: 4px solid var(--primary-color);
+            padding: 18px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 24px 0;
+        }
+
+        .callout-title {
+            font-weight: 700;
+            color: #93c5fd;
+            margin-bottom: 6px;
+        }
+
+        .callout-green {
+            background: rgba(34, 197, 94, 0.08);
+            border-left-color: var(--accent-green);
+        }
+
+        .callout-green .callout-title {
+            color: #86efac;
+        }
+
+        section {
+            background: var(--surface-color);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p, ul {
+            color: var(--text-secondary);
+            font-size: 0.98rem;
+            margin-top: 0;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-badge">🛡️ MailShield AI • Security &amp; Privacy</div>
+            <h1 id="page-title">Політика конфіденційності</h1>
+            <div class="meta-info">
+                <span><strong>Розробник:</strong> AuraTech-UA</span> &bull; 
+                <span><strong>Версія:</strong> 2.0 (On-Device AI)</span> &bull; 
+                <span><strong>Оновлено:</strong> Вересень 2026</span>
+            </div>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLanguage('uk')">🇺🇦 Українська</button>
+                <button class="lang-btn" onclick="switchLanguage('en')">🇬🇧 English</button>
+            </div>
+        </header>
+
+        <!-- UKRAINIAN CONTENT -->
+        <main id="content-uk">
+            <div class="callout-box callout-green">
+                <div class="callout-title">🔒 Архітектура Privacy-by-Design (100% On-Device AI)</div>
+                <p style="margin-bottom: 0;">MailShield AI аналізує ваші листи, виявляє спам/фішинг та витягує коди двофакторної автентифікації <strong>виключно локально на вашому смартфоні</strong>. Текст ваших повідомлень <strong>ніколи</strong> не надсилається на зовнішні сервери чи сторонні AI/LLM API.</p>
+            </div>
+
+            <section>
+                <h2>1. Загальні положення та філософія захисту</h2>
+                <p>Команда <strong>AuraTech-UA</strong> розробила додаток <strong>MailShield AI</strong> з головним пріоритетом — збереження абсолютної конфіденційності листування користувачів. Ми не є посередником між вами та вашим поштовим провайдером. Додаток працює безпосередньо з офіційними поштовими серверами через захищені протоколи (TLS 1.3 / SSL) та OAuth 2.0 PKCE.</p>
+            </section>
+
+            <section>
+                <h2>2. Декларація щодо служб Google API та вимога Limited Use</h2>
+                <p>Додаток використовує Google OAuth для автентифікації в акаунтах Gmail. Відповідно до вимог Google Play User Data Policy:</p>
+                <div class="callout-box">
+                    <div class="callout-title">Офіційне положення Limited Use:</div>
+                    <p style="margin-bottom: 0;"><em>Використання Додатком MailShield AI інформації, отриманої від Google API, та її передача будь-яким іншим додаткам здійснюється у повній відповідності до <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, включаючи вимоги <strong>Limited Use</strong>.</em></p>
+                </div>
+                <ul>
+                    <li>Ми використовуємо доступ до Gmail (`https://mail.google.com/`) виключно для надання функціоналу читання, фільтрації та очищення пошти за безпосереднім запитом користувача.</li>
+                    <li>Ми <strong>не передаємо</strong> вміст пошти третім особам.</li>
+                    <li>Ми <strong>не використовуємо</strong> ваші листи для показу реклами чи побудови маркетингових профілів.</li>
+                    <li>Ми <strong>не передаємо</strong> інформацію з Google API стороннім генеративним штучним інтелектам чи зовнішнім моделям.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Які дані зберігаються на пристрої та як вони захищені</h2>
+                <h3>3.1. Облікові записи та токени</h3>
+                <p>Усі токени доступу (OAuth Tokens) та паролі додатків шифруються за допомогою бібліотеки <strong>Android Jetpack Security</strong> (AES-256 GCM) із використанням системного апаратного ключа <strong>Android Keystore</strong>.</p>
+
+                <h3>3.2. Локальна база даних</h3>
+                <p>Завантажені заголовки та тексти повідомлень зберігаються у внутрішній базі Room у пісочниці додатку. Інші програми на телефоні не мають доступу до цієї бази даних.</p>
+
+                <h3>3.3. Підписки та фінансові дані</h3>
+                <p>Оплата підписок (Monthly, Annual, Lifetime) здійснюється через захищену платформу <strong>Google Play Billing</strong>. Додаток не має доступу до ваших банківських карток чи платіжних реквізитів.</p>
+
+                <h3>3.4. Реклама (Google AdMob)</h3>
+                <p>У безкоштовній версії додатка реклама показується лише після отримання прямої згоди користувача (Consent Dialog). У платних тарифах реклама повністю відсутня.</p>
+            </section>
+
+            <section>
+                <h2>4. Видалення даних (Data Deletion)</h2>
+                <p>Ви маєте повний контроль над своїми даними:</p>
+                <ul>
+                    <li><strong>В додатку:</strong> Перейдіть у вкладку «Акаунти» &rarr; виберіть скриньку &rarr; натисніть «Видалити скриньку». Усі збережені токени, кешовані листи та коди безпеки будуть миттєво стерті з пристрою.</li>
+                    <li><strong>Видалення додатку:</strong> Оскільки ми не зберігаємо дані на сторонніх серверах, видалення додатка з пристрою на 100% знищує всі локальні дані.</li>
+                    <li><strong>Контактний запит:</strong> Якщо у вас є додаткові питання щодо видалення даних, ви можете надіслати запит на адресу: <a href="mailto:auratech.ua.dev@gmail.com">auratech.ua.dev@gmail.com</a>.</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- ENGLISH CONTENT -->
+        <main id="content-en" style="display: none;">
+            <div class="callout-box callout-green">
+                <div class="callout-title">🔒 Privacy-by-Design Architecture (100% On-Device AI)</div>
+                <p style="margin-bottom: 0;">MailShield AI analyzes your emails, detects spam/phishing, and extracts 2FA codes <strong>strictly locally on your device</strong>. Your email content is <strong>never</strong> transmitted to external servers or third-party AI/LLM APIs.</p>
+            </div>
+
+            <section>
+                <h2>1. General Provisions &amp; Privacy Commitment</h2>
+                <p><strong>AuraTech-UA</strong> developed <strong>MailShield AI</strong> with zero compromise on user privacy. We are not an intermediary service. The application communicates directly with your email provider servers over secure, encrypted protocols (TLS 1.3 / SSL) and OAuth 2.0 PKCE.</p>
+            </section>
+
+            <section>
+                <h2>2. Google API Services User Data Policy &amp; Limited Use Disclosure</h2>
+                <p>The app uses Google OAuth for authenticating Gmail mailboxes. In strict compliance with Google Play User Data Policy:</p>
+                <div class="callout-box">
+                    <div class="callout-title">Official Limited Use Clause:</div>
+                    <p style="margin-bottom: 0;"><em>MailShield AI's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the <strong>Limited Use</strong> requirements.</em></p>
+                </div>
+                <ul>
+                    <li>We access Gmail data (`https://mail.google.com/`) strictly to enable email viewing, spam categorization, and user-initiated mailbox hygiene.</li>
+                    <li>We <strong>do not transfer</strong> your email content to third parties.</li>
+                    <li>We <strong>do not use</strong> user data for advertising, profiling, or brokerage.</li>
+                    <li>We <strong>do not use</strong> Google API data to train external AI models.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>3. Local Data Storage &amp; Security Standards</h2>
+                <h3>3.1. Credentials &amp; Tokens</h3>
+                <p>OAuth tokens and app passwords are encrypted using <strong>Android Jetpack Security</strong> (AES-256 GCM) backed by the hardware-level <strong>Android Keystore</strong>.</p>
+
+                <h3>3.2. Local Database</h3>
+                <p>Email metadata and messages are stored inside an isolated private Room database (Android Sandbox). No other application on the device has permission to read this data.</p>
+
+                <h3>3.3. Subscriptions &amp; Payments</h3>
+                <p>All in-app purchases and subscriptions are handled entirely by <strong>Google Play Billing</strong>. We never view or store credit card details.</p>
+
+                <h3>3.4. Advertising (Google AdMob)</h3>
+                <p>In the Free version, advertising is only loaded after user consent (Google UMP). Subscribed tiers are completely ad-free.</p>
+            </section>
+
+            <section>
+                <h2>4. Data Deletion Policy</h2>
+                <p>You have unconditional control over your data:</p>
+                <ul>
+                    <li><strong>In-App:</strong> Go to "Accounts" &rarr; select mailbox &rarr; tap "Disconnect Account". All tokens, cached emails, and OTP items will be immediately purged.</li>
+                    <li><strong>Uninstallation:</strong> Since no remote servers store your information, uninstalling the app permanently erases 100% of data.</li>
+                    <li><strong>Email Inquiries:</strong> For inquiries regarding data deletion, contact us at: <a href="mailto:auratech.ua.dev@gmail.com">auratech.ua.dev@gmail.com</a>.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 AuraTech-UA. Всі права захищені / All rights reserved.</p>
+            <p>MailShield AI — Smart &amp; Secure On-Device Email Client</p>
+        </footer>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            const ukContent = document.getElementById('content-uk');
+            const enContent = document.getElementById('content-en');
+            const pageTitle = document.getElementById('page-title');
+            const btns = document.querySelectorAll('.lang-btn');
+
+            if (lang === 'en') {
+                ukContent.style.display = 'none';
+                enContent.style.display = 'block';
+                pageTitle.textContent = 'Privacy Policy';
+                btns[0].classList.remove('active');
+                btns[1].classList.add('active');
+            } else {
+                ukContent.style.display = 'block';
+                enContent.style.display = 'none';
+                pageTitle.textContent = 'Політика конфіденційності';
+                btns[0].classList.add('active');
+                btns[1].classList.remove('active');
+            }
+        }
+    </script>
+</body>
+</html>
